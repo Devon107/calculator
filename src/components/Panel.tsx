@@ -12,8 +12,7 @@ export default function Panel({userInput, result, numberOne, handleClick}:Props)
         <>
             <div className="column">
                 <div className="display">
-                <Display value={userInput}/>
-                <Display value={result || numberOne || '0'}/>
+                <Display value={userInput === '' ? '0': userInput}/>
                 </div>
                 <div className="row">
                 <Button className="gray-blue" name="1" onClick={() => handleClick('1')}/>

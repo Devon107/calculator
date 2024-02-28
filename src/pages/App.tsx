@@ -95,7 +95,7 @@ function App() {
       }
       setResult(newResult.toString())
       setOperator(value)
-      setNumberOne('')
+      setNumberOne(newResult.toString())
       setUserInput(newResult.toString() + ' ' + value + ' ')
     }
   }

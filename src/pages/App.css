@@ -26,8 +26,9 @@
 .display{
   width: 10.6rem;
   height: 3rem;
+  display:flex;
+  place-items:center;
   border:1px solid #cacaca;
-  padding: 0.3rem;
   border-radius: 0.1rem;
   background-color: #d5d5d5;
   overflow-x: scroll;
