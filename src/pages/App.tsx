@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Display from './components/Display'
-import Button from './components/Button'
+import Display from '../components/Display'
+import Button from '../components/Button'
 
 const REGEX = /[0-9]+/
 
