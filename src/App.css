@@ -1,0 +1,42 @@
+.app{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  place-items: center;
+  margin:2rem;
+}
+
+.row{
+  display:flex;
+  gap: 0.8rem;
+}
+
+.column{
+  display:flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.display{
+  width: 8rem;
+  height: 2rem;
+  border:1px solid #cacaca;
+  padding: 0.3rem;
+  border-radius: 0.1rem;
+  background-color: #f9f9f9;
+  overflow-x: scroll;
+}
+.display h3{
+  font-size: 1.2rem;
+}
+
+button{
+  width:2rem;
+  height: 2rem;
+  border:1px solid #cacaca;
+  border-radius: 0.1rem;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align:center;
+}
