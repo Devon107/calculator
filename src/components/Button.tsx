@@ -1,11 +1,12 @@
 type Props = {
-    name: string
-    onClick: () => void
+    name?: string
+    onClick?: () => void
+    className?: string
 }
 
-const Button = ({name, onClick}: Props) => {
+const Button = ({name, className, onClick}: Props) => {
     return (
-        <button onClick={onClick}>
+        <button className={className} onClick={onClick}>
             {name}
         </button>
     )

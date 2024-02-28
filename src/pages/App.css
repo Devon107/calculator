@@ -29,7 +29,7 @@
   border:1px solid #cacaca;
   padding: 0.3rem;
   border-radius: 0.1rem;
-  background-color: #f9f9f9;
+  background-color: #d5d5d5;
   overflow-x: scroll;
 }
 .display h3{
@@ -49,8 +49,11 @@ button{
 }
 
 .yellow{
+  border:1px solid rgb(214, 193, 3);
   background-color: rgb(214, 193, 3);
 }
 .gray-blue{
+  border:1px solid rgb(53, 53, 88);
   background-color: rgb(53, 53, 88);
+  color:#ffffff;
 }
